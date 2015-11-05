@@ -1,28 +1,9 @@
-== README
+## Music Machine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic web app built on Ruby on Rails and React.js. It takes in keyboard input from the bottom keys and produces musical notes in the key of C as a result. It can also record songs by listening to keypresses and storing them along with a timestamp in a JS object. It can then play songs back by iterating over the object and emitting the proper frequencies at the proper times to reproduce the song. This app has no CSS, and is not currently hosted live anywhere, however it can be downloaded and run on a local server for testing and experimentation.
 
-Things you may want to cover:
+# To-Do's
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+- [ ] Add CSS
+- [ ] Persist recordings to the database
+- [ ] Add user authentication

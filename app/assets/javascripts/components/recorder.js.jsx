@@ -29,8 +29,13 @@
       var track = this.state.track;
       return(
         <div>
+          <p>Click here to playback your recording.</p>
           <button onClick={track.play.bind(track)}>Play</button>
+          <br/>
+          <p>Click here to start recording.</p>
           <button onClick={track.startRecording.bind(track)}>Start</button>
+          <br/>
+          <p>Click here to stop recording.</p>
           <button onClick={this.removeChangeHandler}>Stop</button>
         </div>
       );
